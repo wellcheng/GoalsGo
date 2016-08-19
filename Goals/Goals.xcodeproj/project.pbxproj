@@ -7,21 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E912C101D65ED7600B93059 /* GoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E912C0F1D65ED7600B93059 /* GoalsModel.swift */; };
+		7EC5D31C1D6753CC005DFF41 /* GoalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC5D31B1D6753CC005DFF41 /* GoalStore.swift */; };
+		7EC5D31F1D675E93005DFF41 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC5D31E1D675E93005DFF41 /* GoalCell.swift */; };
+		7EC5D3231D676C52005DFF41 /* CreateGoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC5D3221D676C52005DFF41 /* CreateGoalController.swift */; };
 		7ED2E71C1D50E54C003752C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED2E71B1D50E54C003752C9 /* AppDelegate.swift */; };
-		7ED2E71E1D50E54C003752C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED2E71D1D50E54C003752C9 /* ViewController.swift */; };
+		7ED2E71E1D50E54C003752C9 /* GoalsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED2E71D1D50E54C003752C9 /* GoalsListController.swift */; };
 		7ED2E7211D50E54C003752C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED2E71F1D50E54C003752C9 /* Main.storyboard */; };
 		7ED2E7231D50E54C003752C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED2E7221D50E54C003752C9 /* Assets.xcassets */; };
 		7ED2E7261D50E54C003752C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED2E7241D50E54C003752C9 /* LaunchScreen.storyboard */; };
+		7ED2E7331D50E822003752C9 /* SwiftyJSON.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ED2E7321D50E822003752C9 /* SwiftyJSON.framework.dSYM */; };
+		7ED2E7371D50EA8D003752C9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED2E7361D50EA8D003752C9 /* SwiftyJSON.framework */; };
+		7ED2E7381D50EA8D003752C9 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED2E7361D50EA8D003752C9 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7ED2E7311D50E80E003752C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				7ED2E7331D50E822003752C9 /* SwiftyJSON.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED2E7391D50EA8D003752C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7ED2E7381D50EA8D003752C9 /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7E912C0F1D65ED7600B93059 /* GoalsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsModel.swift; sourceTree = "<group>"; };
+		7EC5D31B1D6753CC005DFF41 /* GoalStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalStore.swift; sourceTree = "<group>"; };
+		7EC5D31E1D675E93005DFF41 /* GoalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		7EC5D3221D676C52005DFF41 /* CreateGoalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGoalController.swift; sourceTree = "<group>"; };
 		7ED2E7181D50E54C003752C9 /* Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED2E71B1D50E54C003752C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7ED2E71D1D50E54C003752C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ED2E71D1D50E54C003752C9 /* GoalsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListController.swift; sourceTree = "<group>"; };
 		7ED2E7201D50E54C003752C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ED2E7221D50E54C003752C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED2E7251D50E54C003752C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ED2E7271D50E54C003752C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED2E7321D50E822003752C9 /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftyJSON.framework.dSYM; path = ../SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
+		7ED2E7361D50EA8D003752C9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +66,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED2E7371D50EA8D003752C9 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E912C0E1D65ED5F00B93059 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E912C0F1D65ED7600B93059 /* GoalsModel.swift */,
+				7EC5D31B1D6753CC005DFF41 /* GoalStore.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7EC5D31D1D675E85005DFF41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EC5D31E1D675E93005DFF41 /* GoalCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7EC5D3201D675ECE005DFF41 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7ED2E7241D50E54C003752C9 /* LaunchScreen.storyboard */,
+				7ED2E7221D50E54C003752C9 /* Assets.xcassets */,
+				7ED2E7271D50E54C003752C9 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		7EC5D3211D676C34005DFF41 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7ED2E71D1D50E54C003752C9 /* GoalsListController.swift */,
+				7EC5D3221D676C52005DFF41 /* CreateGoalController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		7ED2E70F1D50E54C003752C9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +128,41 @@
 		7ED2E71A1D50E54C003752C9 /* Goals */ = {
 			isa = PBXGroup;
 			children = (
+				7EC5D3211D676C34005DFF41 /* Controllers */,
+				7ED2E73A1D50EEC0003752C9 /* StoryBoards */,
+				7EC5D3201D675ECE005DFF41 /* Support */,
+				7EC5D31D1D675E85005DFF41 /* Views */,
+				7E912C0E1D65ED5F00B93059 /* Model */,
 				7ED2E71B1D50E54C003752C9 /* AppDelegate.swift */,
-				7ED2E71D1D50E54C003752C9 /* ViewController.swift */,
-				7ED2E71F1D50E54C003752C9 /* Main.storyboard */,
-				7ED2E7221D50E54C003752C9 /* Assets.xcassets */,
-				7ED2E7241D50E54C003752C9 /* LaunchScreen.storyboard */,
-				7ED2E7271D50E54C003752C9 /* Info.plist */,
+				7ED2E7341D50E8A0003752C9 /* FrameworkDSYM */,
+				7ED2E72F1D50E78C003752C9 /* Framework */,
 			);
 			path = Goals;
+			sourceTree = "<group>";
+		};
+		7ED2E72F1D50E78C003752C9 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7ED2E7361D50EA8D003752C9 /* SwiftyJSON.framework */,
+			);
+			name = Framework;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7ED2E7341D50E8A0003752C9 /* FrameworkDSYM */ = {
+			isa = PBXGroup;
+			children = (
+				7ED2E7321D50E822003752C9 /* SwiftyJSON.framework.dSYM */,
+			);
+			name = FrameworkDSYM;
+			sourceTree = "<group>";
+		};
+		7ED2E73A1D50EEC0003752C9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				7ED2E71F1D50E54C003752C9 /* Main.storyboard */,
+			);
+			name = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +175,9 @@
 				7ED2E7141D50E54C003752C9 /* Sources */,
 				7ED2E7151D50E54C003752C9 /* Frameworks */,
 				7ED2E7161D50E54C003752C9 /* Resources */,
+				7ED2E7311D50E80E003752C9 /* CopyFiles */,
+				7ED2E7351D50E976003752C9 /* ShellScript */,
+				7ED2E7391D50EA8D003752C9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +234,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ED2E7351D50E976003752C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7ED2E7141D50E54C003752C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED2E71E1D50E54C003752C9 /* ViewController.swift in Sources */,
+				7ED2E71E1D50E54C003752C9 /* GoalsListController.swift in Sources */,
+				7E912C101D65ED7600B93059 /* GoalsModel.swift in Sources */,
+				7EC5D3231D676C52005DFF41 /* CreateGoalController.swift in Sources */,
+				7EC5D31C1D6753CC005DFF41 /* GoalStore.swift in Sources */,
+				7EC5D31F1D675E93005DFF41 /* GoalCell.swift in Sources */,
 				7ED2E71C1D50E54C003752C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +374,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Goals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devcheng.Goals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,7 +391,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Goals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devcheng.Goals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +423,7 @@
 				7ED2E72C1D50E54C003752C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
